@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+    border: 2px solid wheat;
+ border-radius: 4px;
+}
+
+#logo img{
+    height: 50px;
+    margin: 5px 0px -3px 2px;
+    padding-bottom: -4px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+#search{
+    border: 2px solid brown;
+    border-radius: 4px;
+    padding: 5px;
+    flood-color: brown;
+    margin: -33px;
+    margin-left: 4px;
+}
+
+.search  {
+    width: 60%;
+}  
+/* Services Section */
+#services{
+    /* grid-template-columns: repeat( 4,auto); */
+    margin: 0px;
+    display:inline-flex;
+    /* display: block; */
+}
+#services .box {
+     border: 2px solid brown;
+    padding: 3px;
+    /* margin: 2px 2px; */
+    border-radius: 4px;
+    background: #f2f2f2;
+    margin-bottom: 4px;
+    margin-left: 2.5px;
+    margin-right: 1px;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+    display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+.center{
+    text-align: center;
+}
+
+.rate{
+    text-align: center;
+    font-size: 1 rem;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+.bttn button{
+    margin: 5px auto;
+    padding: 4px ;
+    display: flex;
+    text-align: center;
+    background-color: rgb(241, 46, 12);
+    color: blanchedalmond;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+.bttn button:hover{
+    background-color: rgb(10, 165, 10); 
+}

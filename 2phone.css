@@ -1,0 +1,40 @@
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* Home section */
+#home{
+    height: 377px; 
+    padding: 3px 28px;
+}
+
+#home::before{
+    height: 480px; 
+}
+
+#home p{
+    font-size: 13px;
+}
+#services{
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+ 
+#services .box { 
+    padding: 4px;
+    margin: 2px auto; 
+    margin-bottom: 20px;
+     align-items: center; 
+     /* margin-left: 23px; */
+    flex-basis: 30%;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+/* ------------- form list ki css --------- */

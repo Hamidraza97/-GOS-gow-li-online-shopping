@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form list </title>
+
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        .continer {
+            margin-top: 56px;
+            margin: 0px auto;
+            background-image: url("img/contact.jpg");
+            width: 86%;
+            height: 900px;
+            box-shadow: 4px  4px  4px;
+        }
+
+        .form-group {
+            width: 54%;
+            margin: 14px auto;
+            padding: 5px;
+            color: rgb(245, 10, 10);
+            font-style: italic;
+            border: 2px solid rgb(82, 199, 238);
+            border-radius: 4px;
+            text-align: center;
+            background-color: burlywood;
+            box-shadow: 5px 5px 5px;
+        }
+
+        .btn:hover {
+            background-color: darkgreen;
+
+        }
+
+        h1 {
+            margin-top: 22px;
+            font-size: 43PX;
+            color: rgb(245, 8, 245);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            font-style: italic;
+        }
+        @media(max-width:590px ){
+            .continer{
+                width: 100%;
+            }
+            h1{
+                font-size: 23PX; 
+            }
+           .form-group{
+               width: 80%;
+           } 
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+
+
+    <div class="continer">
+
+        <h1>
+            FILL UP RAGISTRATION FORM FOR PURCHES ITEMS
+        </h1>
+
+        <form action="#" autocomplete="on" method="post">
+
+
+            <div class="form-group">
+                <label for="name"> NAME: </label>
+                <input type="text" name="fullname" id="name" placeholder="  first name" maxlength="14">
+                <input type="text" name="fullname" id="name" placeholder="  last name" maxlength="14">
+            </div>
+
+            <div class="form-group">
+                <label for="name"> FATHER NAME : </label>
+                <input type="text" name="name" id=" father-name" placeholder="Enter your father name" maxlength="14">
+            </div>
+
+            <div class="form-group">
+                <label for="Date Of Birth"> DATE OF BIRTH: </label>
+                <input type="date" name="Date" id="date" placeholder="Enter your date of birth" maxlength="14">
+            </div>
+
+            <div class="form-group">
+                <label for="email">EMAIL: </label>
+                <input type="email" name="email" id="name" placeholder="Enter your email" maxlength="25">
+            </div>
+            <div class="form-group">
+                <label for="phone">PHONE NUMBER: </label>
+                <input type="phone" name="phone" id="name" placeholder="Enter your phone" maxlength="10">
+            </div>
+            <div class="form-group">
+                <label for="phone"> SECOND PHONE NUMBER.: </label>
+                <input type="phone" name="phone" id="name" placeholder="Enter your phone" maxlength="10">
+            </div>
+            <div class="form-group">
+                <label for="Adress"> LOCAL ADRESS :</label>
+                <input type="text" id="name " name="adress " size="40"
+                    placeholder="ex. house no. flat no. muhalla gali ">
+            </div>
+            <div class="form-group">
+                <label for="phone">PIN CODE : </label>
+                <input type="phone" name="phone" id="name" placeholder="PIN CODE" maxlength="6">
+            </div>
+            <div class="form-group">
+                <label for="name"> DDISTRIC : </label>
+                <select name="city " id="name">
+                    <option value="gorakhpur">gorakhpur</option>
+                    <option value="sant-labir-nagar">sant-labir-nagar</option>
+                    <option value="basti">basti</option>
+                    <option value="kushinagar">kushinagar</option>
+                    <option value="gorakhpur">dewariya</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="name"> STATE : </label>
+                <select name="city " id="name">
+                    <option value="gorakhpur">utter pardesh</option>
+                    <option value="sant-labir-nagar">maharastra</option>
+                    <option value="basti">madhy pardesh</option>
+                    <option value="kushinagar">jharkhand</option>
+                    <option value="gorakhpur">krnatka</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="name"> COUNTARY : </label>
+                <select name="city " id="name">
+                    <option value="gorakhpur">INDIA</option>
+                    <option value="sant-labir-nagar"></option>
+                    <option value="basti"></option>
+                    <option value="kushinagar"></option>
+                    <option value="gorakhpur"></option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" name="checkbox" id="name" required> term and cndition 
+            </div>
+
+            <div class="form-group">
+                <label for="submit"> </label>
+                <button type="submit" class="btn" name="Submit">BUY NOW</button>
+
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
